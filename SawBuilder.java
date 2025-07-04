@@ -5,7 +5,7 @@ public class SawBuilder extends AbstractBuilder {
         this.saw = new Saw();
     }
 
-    public Saw getSaw() {
+    public Saw GetWeapon() {
         return saw;
     }
 }

@@ -4,7 +4,7 @@ public class BicycleBuilder extends AbstractBuilder {
         this.bicycle = new Bicycle();
     }
 
-    public Bicycle getBicycle() {
+    public Bicycle GetWeapon() {
         return bicycle;
     }
 
