@@ -17,14 +17,12 @@ abstract class AbstractBuilder {
         System.out.println("Join right hand with right handle");
         return this;
     }
-    public AbstractBuilder PaintMeshGPU()
-    {
-        System.out.println("Painting all parts of Bike for GPU.");
-        return this;
-    }
     public AbstractBuilder PreloadMeshInCache()
     {
         System.out.println("Preloading the mesh in the GPU's cache.");
         return this;
+    }
+    public Weapon GetWeapon() {
+        return weapon;
     }
 }

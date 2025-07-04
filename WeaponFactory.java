@@ -22,14 +22,14 @@ public class WeaponFactory {
                         .PaintMeshGPU()
                         .PreloadMeshInCache()
                         .PositionRightHand()
-                        .getSaw();
+                        .GetWeapon();
                     break;
             case "bicycle":
                 weapon  = new BicycleBuilder()
                         .LoadMeshGPU()
                         .PreloadMeshInCache()
                         .PositionRightHand()
-                        .LoadMeshGPU().getBicycle();
+                        .LoadMeshGPU().GetWeapon();
                 break;
             default:
                 throw new Exception("Unknown weapon type: " + type);
